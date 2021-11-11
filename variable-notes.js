@@ -76,10 +76,10 @@
 
 
 
-// let hi = "hello";
-// let bye = "goodbye";
-// let concatenatedGreeting = hi + bye;
-// console.log(concatenatedGreeting);
+let hi = "hello";
+let bye = "goodbye";
+let concatenatedGreeting = hi + bye;
+console.log(concatenatedGreeting);
 
 // const hiFriend = "Hello Friend"
 // console.log(hiFriend.slice(6,14));
