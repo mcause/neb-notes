@@ -80,3 +80,4 @@ let lInitial = firstName[firstName.length-1];
 // console.log(lInitial[0][0]);
 console.log(fInitial[0][0]+lInitial[0]);
 
+
