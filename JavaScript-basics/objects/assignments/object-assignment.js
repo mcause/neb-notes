@@ -33,13 +33,13 @@ dreamV["horsepower"] = "430";
 dreamV.color = "red";
 // 8.   Create a method for turning your vehicle on
     function startCar(){
-        console.log("Let's Gooooo!!");
+        return "Let's Gooooo!!";
     }
     dreamV.start = startCar;
     dreamV.start();
 // 9.   Create a method for turning your vehicle off
     function killSwitch(){
-        console.log("Turn engine off");
+        return "Turn engine off";
     }
     dreamV.stop = killSwitch;
     dreamV.stop();

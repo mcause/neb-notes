@@ -1,0 +1,4 @@
+const arrayOfNums = [5, 3, 2, 1, 0, 9, 10, 30, 55];
+for(let num= 0; num< arrayOfNums.length; num++){
+console.log(${arrayOfNums[num]});
+}

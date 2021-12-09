@@ -44,9 +44,9 @@ console.log(celebrityNamesSplit);
 let lastNamecelebrity = []
 let celebInitals = []
 for(let i = 0; i < celebrityNames.length;i++ ){
+if (lastNameCelelbrity.push(celebrityNames[i].split(' ')[1]);
 
-lastNameCelelbrity.push(celebrityNames[i].split(' ')[1])
-}
+
 
 
 
@@ -57,7 +57,7 @@ lastNameCelelbrity.push(celebrityNames[i].split(' ')[1])
 //        Output: ['MARTHA-STEWART', 'DAVID-BECKHAM', etc..]
 const celebrityNames = ['Will Smith', 'Martin Lawrence', 'Dave Chappelle', 'Bobby Flay', 'Will Farrell']
 let celebrityNames =(celebrityNames.toUpperCase().split(' ').join('-'))
-
+console.log(celebrityNames)
 // 8.   Index your array to find your favorite celebrity. 
 //      Save that name to a variable
 //      Loop over the array until you find that individual
@@ -77,3 +77,9 @@ console.log(i)
 //      If an index is divisible by 3 log 'buzz'
 //      If an index is divisible by both 2 & 3, log 'fizz-buzz'
 //  Otherwise print the index to the console
+
+ for(let i =0; i <=30;i++){
+  if(i =[i] / 2); 
+  console.log 
+ }
+}
