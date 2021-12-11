@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: burlywood;
 }
 
@@ -18,9 +18,9 @@ body{
     display: grid;
     align-items: flex-end;
     background-color: red;
-}
+} */
 
-/* .button-styling {
+.button-styling {
     width: 200px;
     height: 100px;
     background-color: pink;
@@ -37,4 +37,4 @@ body{
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
-  } */
+  }
