@@ -1,11 +1,18 @@
-.body{
+.container{
   border: 100px rgb(173, 60, 16);
   background-color: rgb(4, 131, 4);
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
 }
 
+.newBox1{
+  height: 300px;
+  width: 300px;
+  border: dotted grey;
+  margin: 4px;
+}
 
 
 

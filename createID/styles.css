@@ -1,0 +1,15 @@
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: turquoise;
+    border: 10px double black ;
+    box-shadow: black;
+    width:350px;
+    height:250px;
+    padding:10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
