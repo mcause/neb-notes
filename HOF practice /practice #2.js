@@ -14,14 +14,19 @@ const pow = changeNums.map(current => current * current);
 //      Ex: stringInfo(capitals, 'Howdy Partner!') => 2
 //      Ex: stringInfo(nonLetters, 'Howdy Partner!') => 2
 
-const stringInfo = (str)=> {
+const welcome = 'Howdy Partner!';
+const stringTotal = welcome.split('').reduce(a => a+1, 0);
+
+
+const stringInfo = (func, str)=> {
     const array = str.split("")
     let output = 0
     for(let i =0 ; i < arr.length; i++) {
-        output += (arr[i])
+        output += func(arr[i]);
     }
     return output
 }
+
 
 const length = (letter)=> {
     return 1
