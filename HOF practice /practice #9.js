@@ -33,8 +33,20 @@ const phoneNums = [
     "917-987-2125", 
     "347-123-4567",
 ];
-const protectedNum = phoneNums.map(num => num[1-8]);
-console.log(protectedNum);
+let maskedNum = phoneNums.map(phoneNum => {
+    return phoneNum.split('').map(digit,index => {
+        if(index == 0 || digit == '-' || index >= phoneNum.length - 3){
+            return digit;
+        }else{
+            return "#"
+        }
+    }).join('')
+})
+// function maskNumber(string){
+
+// }
+// const protectedNum = phoneNums.map(num => num[1-8]);
+// console.log(protectedNum);
 
 // 5.   Given an array of numbers write a HOF that logs to the console:
 //      `Thats a big number!` if it's larger than 1000 or
@@ -42,11 +54,11 @@ console.log(protectedNum);
 const nums1 = [345,57,765,2345,1098,32,9876];
 const mixedNums = nums1.filter(smallNum, bigNum => {
     if (smallNum <= 1000){
-    console.log('Thats a big number!')
+    console.log('Thats a big number!');
     }else{ 
-    console.log('This number isnt so big...' )
+    console.log('This number isnt so big...' );
     }
-}
+});
 
 // 6.   Given an array of people's names write a hof that returns only people with names longer than 5 characters
 const names = ['Ayelli', 'Kaia', 'Pedro', 'Ana', 'Chicco', 'Tatiana', 'Maximus'];
@@ -81,4 +93,6 @@ const food = [
     { name: "Eggs", exp: new Date(2021, 11, 28) },
     { name: "Bread", exp: new Date(2021, 11, 20) },
 ];
+
+
 

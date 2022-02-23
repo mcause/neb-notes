@@ -85,6 +85,6 @@ function secondWord(str){
 // devowler('121415151u141aem') = '121415151141m'
 // devowler('autoimmunities') = 'tmmnts'
 
-function(){
+// function(){
     
-}
+// }

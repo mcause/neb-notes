@@ -3,7 +3,7 @@
 // 1.   Write a HOF to find the first number greater than 10 in an array
 const nums = [1,2,3,15, 4, 80, 34]
 const greaterNum = nums.find(ele => ele > 10);
-console.log(greaterNumn)
+console.log(greaterNum)
 
 
 // 2.   Write a HOF to find the first string in an array
