@@ -87,9 +87,9 @@ function printLast(arr){
     //logging the last index of the array one time 
     console.log(arr[arr.length-1]);
 }
-// 0(1)
+// 0(n) constant 
 
-// 3.   What is the big O of the following function
+// 5.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function everyOther(str){
@@ -103,27 +103,28 @@ function everyOther(str){
 
     return newStr;
 }
-// 0(log n)
+// 0(n) because the 
 
 
-// 4.   What is the big O of the following function
+// 6.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 //function is taking in a parameter and 
 function doubled(num) {
     return 2 * num
 }
-//O(n)
+//O(1) taking in one number and multiplying it one time 
 
-// 5.   What is the big O of the following function
+// 7.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function multipleSteps(num) {
     let final = 4 * num
     return final * 3
 }
+//O(1) because no matter the number the functions does not run more than once 
 
-// 6.   What is the big O of the following function
+// 8.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function backwardsArr(arr) {
@@ -133,7 +134,9 @@ function backwardsArr(arr) {
     }
     return arrReversed
 }
-// 7.   What is the big O of the following function
+// O(n) going over the array backwords and the time will increase slowly as the array would get bigger 
+
+// 9.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function multiplyAll(arr1, arr2) {
@@ -146,19 +149,23 @@ function multiplyAll(arr1, arr2) {
     }
     return total
 }
-// 8.   What is the big O of the following function
+// 0(n^2) because of the nested loop
+// 10.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 let nums = [10,20,30,40];
 nums.push(50);
+//O(1) because the computer is not doing any more work no matter the size of the number 
 
-// 9.   What is the big O of the following function
+// 11.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 let nums2 = [10,20,30,40];
 nums.unshift(0);
+//0(1) no matter the size of the number it is putting the new number to the front of the array and 
+//returning the new arry 
 
-// 10.   What is the big O of the following function
+// 12.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function logTime(arr) {
@@ -168,3 +175,5 @@ function logTime(arr) {
     }
     return numberOfLoops
 }
+
+//O(n^2) 
