@@ -87,7 +87,7 @@ function printLast(arr){
     //logging the last index of the array one time 
     console.log(arr[arr.length-1]);
 }
-// 0(n) constant 
+// 0(1) constant 
 
 // 5.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
@@ -103,7 +103,7 @@ function everyOther(str){
 
     return newStr;
 }
-// 0(n) because the 
+// 0(n) because the looping over every other number in the array and putting it into a new array  
 
 
 // 6.   What is the big O of the following function
@@ -176,4 +176,4 @@ function logTime(arr) {
     return numberOfLoops
 }
 
-//O(n^2) 
+//O(log n) 
